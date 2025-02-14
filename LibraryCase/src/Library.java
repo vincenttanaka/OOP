@@ -21,7 +21,7 @@ public class Library {
     }
 
     public void displayLibraryBooks(){
-        System.out.println("Books id Library:");
+        System.out.println("Books in Library:");
         for (Book book : books) {
             System.out.println("Title      : " + book.title );
             System.out.println("ISBN       : "+book.id);
